@@ -23,7 +23,7 @@ public class Task0311_VWOImgUpload {
         WebElement userName = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='login-username']")));
         userName.sendKeys("cxh04@tempumail.cc");
         WebElement passWord = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='login-password']")));
-        passWord.sendKeys("ILoveDrive#08");
+        passWord.sendKeys("DSDSDS#08");
         WebElement signIn_Btn = driver.findElement(By.xpath("//button[@id='js-login-btn']"));
         signIn_Btn.click();
 
